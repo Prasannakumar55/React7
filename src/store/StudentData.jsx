@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = [
-  { name: "sai", age: 24, course: "MERN", batch: "October", id: "1" },
-  { name: "Abhi", age: 25, course: "MERN", batch: "November", id: "2" },
-  { name: "mallikarjun", age: 26, course: "MERN", batch: "September", id: "3" },
-  { name: "Harish", age: 22, course: "MERN", batch: "September", id: "4" },
-  { name: "nikhil", age: 23, course: "MERN", batch: "October", id: "5" },
-  { name: "uday", age: 24, course: "MERN", batch: "November", id: "6" },
+  { name: "Naveen", age: 20, course: "Mech", batch: "October", id: "1" },
+  { name: "Nitin", age: 21, course: "ECE", batch: "November", id: "2" },
+  { name: "Abhishik", age: 22, course: "CSC", batch: "September", id: "3" },
+  { name: "Pitamber", age: 23, course: "Civil", batch: "September", id: "4" },
+  { name: "Pushpa", age: 24, course: "Mech", batch: "October", id: "5" },
+  { name: "Rupam", age: 25, course: "EEE", batch: "November", id: "6" },
 ]
 
 const usersSlice = createSlice({
