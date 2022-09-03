@@ -1,0 +1,87 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(greenyellow,yellow,greenyellow);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: greenyellow;
+    width: 100vw;
+    height: 70px;
+    font-size: 28px;
+    }
+     .student__details h1{
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bolder;
+        position: relative;
+        left: 300px;
+        top: 40px;
+    }
+
+    .add__student{
+        text-decoration: none;
+        text-align: center;
+        font-size: 14px;
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        background-color:black;
+        margin-left: 800px;
+        border-radius: 10px;
+        border: 3px solid white;
+        color:white;
+        position: relative;
+        top: 40px;
+    }
+    .student__data{
+        width: 300px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        border: 2px solid white;
+        margin-left: 600px;
+        background-color: pink;
+        border-radius: 10px;
+        padding-top: 50px;
+    }
+    .data{
+        display: inline-block;
+        height: 70px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .data input{
+        width: 230px;
+        height: 35px;
+        background-color:white;
+        border: 2px solid white;
+        color:white;
+        border-radius: 10px;
+    }
+    .container__submit{
+        display: inline-block;       
+    }
+
+    .section {
+        text-decoration: none;
+        text-align: center;
+        padding: 3px;
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        background-color: black;
+        color:black;
+        border: 3px solid white;
+        color: white;
+        border-radius: 10px;
+        margin-left: 640px;
+    }
+    
+    .submit{
+        margin-left: 20px;
+    }
+    
